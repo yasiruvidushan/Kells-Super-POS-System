@@ -1,0 +1,336 @@
+*{
+
+    font-family: 'Lato', sans-serif;
+
+}
+
+
+
+body{
+
+    margin: 0;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+#tile_area{
+
+    position: absolute;
+
+    height: 240px;
+
+    left: 0;
+
+    right: 0;
+
+    top: 350px;
+
+    bottom: 0;
+
+    margin: auto;
+
+    text-align: center;
+
+}
+
+
+
+.mainTitle{
+
+    color: black;
+
+    font-size: 30px;
+
+    margin-top: 170px;
+
+    font-weight: bold;
+
+    margin-left: 30px;
+
+}
+
+.footer-text{
+
+    z-index: 10;
+
+    height: 50px;
+
+    background-color: rgba(0,0,0,0.8);
+
+    color: white;
+
+    font-size: 15px;
+
+    text-align: center;
+
+    position: relative;
+
+    margin-top: 20px;
+
+    padding-top: 5px;
+
+    clear: both;
+
+}
+
+
+
+#wrapper{
+
+    position: relative;
+
+    width: 80%;
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+    padding-top: 80vh;
+
+}
+
+
+
+.wrapper-sec{
+
+    position: relative;
+
+    width: 80%;
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+    padding-top: 140px;
+
+    min-height: calc(100vh - 195px);
+
+    z-index: 0;
+
+}
+
+
+
+#content_area{
+
+    position: relative;
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+    padding-top: 80vh;
+
+    background-color: #e8f5e9;
+
+    top: 620px;
+
+}
+
+
+
+.title-main-area{
+
+    height: 32px;
+
+    padding: 5px;
+
+    background: linear-gradient(to right, green, greenyellow);
+
+    color: white;
+
+    text-shadow: 0 0 10px black;
+
+    border-radius: 5px 0 0 5px;
+
+}
+
+
+
+div.title-main-area h2{
+
+    margin: 0;
+
+}
+
+
+
+.form-element{
+
+    border-radius: 5px;
+
+    border: 1px solid gray;
+
+    font-size: 1.01em;
+
+    margin-left: 5px;
+
+    margin-right: 5px;
+
+    box-shadow: 1px 1px 5px lightgray;
+
+}
+
+
+
+.form-text{
+
+    padding: 7px;
+
+}
+
+
+
+.form-select{
+
+    padding: 6px 10px 6px 10px;
+
+}
+
+
+
+.form-btn{
+
+    color: black;
+
+    padding: 7px 10px;
+
+}
+
+
+
+.btn-red{
+
+    background: linear-gradient(to bottom, #d32f2f, #e53935);
+
+}
+
+
+
+.btn-red:hover{
+
+    background: #d32f2f;
+
+}
+
+
+
+.btn-green{
+
+    background: linear-gradient(to bottom, #7cb342, #8bc34a);
+
+}
+
+
+
+.btn-green:hover{
+
+    background: #7cb342;
+
+}
+
+
+
+.btn-blue{
+
+    background: linear-gradient(to bottom, green, greenyellow);
+
+}
+
+
+
+.btn-blue:hover{
+
+    background: greenyellow;
+
+}
+
+
+
+.btn-yellow{
+
+    background: linear-gradient(to bottom, yellowgreen, greenyellow);
+
+}
+
+
+
+.btn-yellow:hover{
+
+    background: greenyellow;
+
+}
+
+
+
+div.wrapper-sec label{
+
+    font-size: 1.01em;
+
+}
+
+
+
+.form-table{
+
+    width: 100%;
+
+    border-color: white;
+
+}
+
+
+
+table.form-table thead{
+
+    background-color: greenyellow;
+
+    color: black;
+
+}
+
+
+
+table.form-table tbody{
+
+    background-color: lawngreen;
+
+}
+
+
+.form-label{
+
+    font-weight: bold;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 320px) {
+
+    .wrapper-sec div #rep{
+
+        float: left !important;
+
+    }
+
+}
+

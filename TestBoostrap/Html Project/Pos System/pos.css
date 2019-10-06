@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+}
+/* Style the body */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+/* Header*/
+.header {
+    padding: 50px;
+    text-align: center;
+
+    background-image: url("Img/main-banner-12.webp");
+    color: black;
+}
+
+
+
+
+/* Increase the font size of the heading */
+.header h1 {
+    font-size: 40px;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: greenyellow;
+    position: sticky;
+
+    top: 0;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+
+
+
+/* Change color on hover */
+.navbar a:hover {
+    background-color:red;
+    color: black;
+}
+
+/* Active/current link */
+.navbar a.active {
+    background-color: #666;
+    color: white;
+}
+
+/* Column container */
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+
+/* Sidebar/left column */
+.side {
+    -ms-flex: 30%;
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+/* Main column */
+.main {
+    -ms-flex: 70%;
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+}
+
+
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: darkgrey;
+}
+
+/*@media screen and (max-width: 700px) {
+    .row {
+        flex-direction: column;
+    }
+}*/
+
+
+/*@media screen and (max-width: 400px) {
+    .navbar a {
+        float: none;
+        width: 100%;
+    }
+}*/
+
+/*LogOut button in side*/
+
+.button {
+    border-radius: 4px;
+    background-color: #00ff00;
+    border: none;
+    color: black;
+    text-align: center;
+    font-size: 15px;
+    padding: 15px;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 3px;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}

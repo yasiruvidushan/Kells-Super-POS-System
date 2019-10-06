@@ -1,0 +1,33 @@
+.fakeimg {
+    height: 200px;
+
+    border-radius: 20px;
+    margin: auto;
+    left: 0;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 30px 35% 10px 2px;
+}
+
+img.avatar {
+    width: 90%;
+    border-radius: 50%;
+}
+@media screen and (max-width: 700px) {
+    .row {
+        flex-direction: column;
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+    .navbar a {
+        float: none;
+        width: 100%;
+    }
+}
+
+
+

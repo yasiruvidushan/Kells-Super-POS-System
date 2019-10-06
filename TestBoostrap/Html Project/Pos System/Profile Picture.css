@@ -1,0 +1,11 @@
+/*profile picture*/
+
+.imgcontainer {
+    text-align: center;
+    margin: 1px 10% 80px 200px;
+}
+
+img.avatar {
+    width: 20%;
+    border-radius: 50%;
+}
